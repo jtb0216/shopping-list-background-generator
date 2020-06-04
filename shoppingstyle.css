@@ -1,0 +1,88 @@
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+body{
+ background: linear-gradient(to right, red, yellow); 
+ font-family: 'Architects Daughter', cursive;
+
+
+}
+
+h1 {
+  display: inline;
+}
+
+.both{
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+.hide{
+    display: none;
+}
+#top{
+
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: linear-gradient(to right, yellow ,red)
+ 
+}
+
+.listcontainer{
+  text-align: center;
+}
+
+
+.color1, .color2{
+  border-radius: 10%;
+}
+
+li {
+list-style: none;
+justify-content: left;
+white-space: initial;
+word-break: break-word;
+}
+
+ul{
+  display: inline-table;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.mybutton{
+float: right;
+position: relative; 
+margin-left: 20px; 
+}
+
+#userinput, #enter{
+  text-align: center;
+}
+.listinput{
+  justify-content: center;
+}
